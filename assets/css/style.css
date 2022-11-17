@@ -115,7 +115,8 @@ main {
 }
 
 #workImages {
-    max-width: 91%;
+    max-width: 90%;
+    max-height: 90%;
     height: auto;
     border: solid;
     border-width: 4px;
@@ -224,6 +225,10 @@ li:hover {
    #aboutMeHeading {
     font-size: 18px;
    }
+   .work-images {
+    grid-template-columns: max-content;
+   }
+   
 
     
 }
